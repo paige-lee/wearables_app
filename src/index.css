@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.js-plotly-plot .draglayer,
+.js-plotly-plot .cursor-crosshair {
+  cursor: default !important;
+}
+
+.js-plotly-plot .plotly .cursor-ew-resize {
+  cursor: crosshair;
+}
+
+body {
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+body {
+  padding: 2rem;
+}
+
+button {
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+select {
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+
+.js-plotly-plot .legend .traces .legendtoggle {
+  cursor: default !important;
+}
+
+/* Force crosshair cursor for Annotate page's stress plot */
+.annotate-crosshair .draglayer {
+  cursor: crosshair !important;
+}

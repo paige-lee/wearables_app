@@ -3,7 +3,8 @@ import Plot from 'react-plotly.js';
 import axios from 'axios';
 
 
-const API_BASE_URL = 'http://localhost:8000';
+//const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = "https://wearables-app-backend.onrender.com";
 
 const downsample = (arr, step = 10) => arr.filter((_, i) => i % step === 0);
 

@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000';
+//const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = "https://wearables-app-backend.onrender.com";
 
 export const signup = async (user) => axios.post(`${API_BASE_URL}/signup`, user);
 export const login = async (user) => axios.post(`${API_BASE_URL}/login`, user);

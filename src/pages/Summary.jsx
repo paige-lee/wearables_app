@@ -2,7 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react';
 import Plot from 'react-plotly.js';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000';
+//const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = "https://wearables-app-backend.onrender.com";
 
 const Summary = () => {
   const user = localStorage.getItem('user');
